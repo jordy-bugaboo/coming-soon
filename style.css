@@ -113,6 +113,13 @@ header {
   gap: 2rem;
 }
 
+@media only screen and (min-width: 415px) {
+  .twitter:hover, .facebook:hover, .instagram:hover {
+    background-color: hsl(223deg, 87%, 63%);
+    color: hsl(0deg, 0%, 100%);
+  }
+}
+
 footer {
   margin-top: 10rem;
   gap: 2rem;

@@ -125,10 +125,20 @@ header {
     gap: 2rem;
 }
 
+.twitter, .facebook, .instagram {
+    @media only screen and (min-width: 415px) {
+        &:hover {
+            background-color: $color-blue;
+            color: $color-white;
+        };
+    }
+}
+
 footer {
     margin-top: 10rem;
     gap: 2rem;
 }
+
 .hero-dashboard {
     height: 200px;
     object-fit: contain;
