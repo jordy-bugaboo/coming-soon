@@ -1,0 +1,246 @@
+* {
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-family: inherit;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background-color: hsl(223deg, 87%, 63%);
+  border-radius: 30px;
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 700;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+@media only screen and (min-width: 415px) {
+  button:hover {
+    background-color: hsl(223deg, 100%, 88%);
+  }
+}
+@media only screen and (min-width: 415px) {
+  button {
+    margin-left: unset;
+    margin-right: unset;
+    width: 30%;
+  }
+}
+button:disabled {
+  background-color: hsl(0deg, 0%, 59%);
+}
+
+header {
+  text-align: center;
+  min-width: 414px;
+  margin-top: 25%;
+}
+@media only screen and (min-width: 415px) {
+  header {
+    min-width: 700px;
+    margin-top: 8%;
+  }
+}
+
+.header--logo {
+  width: 20%;
+}
+.header--input {
+  border: 1px solid hsl(223deg, 100%, 88%);
+  border-radius: 30px;
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 1em;
+}
+@media only screen and (min-width: 415px) {
+  .header--input {
+    margin-left: unset;
+    margin-right: unset;
+    width: 100%;
+  }
+}
+
+.header-text-1 {
+  color: hsl(0deg, 0%, 59%);
+}
+
+.header-text-2 {
+  font-weight: 700;
+}
+
+.header-text-3 {
+  font-size: 1em;
+}
+
+.c-header-cta {
+  flex-direction: column;
+  gap: 16px;
+}
+@media only screen and (min-width: 415px) {
+  .c-header-cta {
+    flex-direction: row;
+  }
+}
+
+.c-hero {
+  min-width: 375px;
+}
+@media only screen and (min-width: 415px) {
+  .c-hero {
+    min-width: 700px;
+  }
+}
+
+.c-social-media {
+  gap: 2rem;
+}
+
+footer {
+  margin-top: 10rem;
+  gap: 2rem;
+}
+
+.hero-dashboard {
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 375px;
+}
+@media only screen and (min-width: 415px) {
+  .hero-dashboard {
+    height: 450px;
+    width: 100%;
+  }
+}
+
+ion-icon {
+  border: 1px solid hsl(223deg, 100%, 88%);
+  border-radius: 50%;
+  padding: 10px;
+  color: hsl(223deg, 87%, 63%);
+}
+
+.error {
+  border: 1px solid hsl(354deg, 100%, 66%);
+}
+
+.error--message {
+  color: hsl(354deg, 100%, 66%);
+  width: 100%;
+  text-align: left;
+}
+@media only screen and (max-width: 414px) {
+  .error--message {
+    display: none;
+  }
+}
+@media only screen and (min-width: 415px) {
+  .error--message {
+    margin-top: 2%;
+  }
+}
+
+.error-mobile--message {
+  color: hsl(354deg, 100%, 66%);
+  width: 100%;
+  text-align: center;
+}
+@media only screen and (min-width: 415px) {
+  .error-mobile--message {
+    display: none;
+  }
+}
+
+.success-mobile--message {
+  color: green;
+  width: 100%;
+  text-align: center;
+}
+@media only screen and (min-width: 415px) {
+  .success-mobile--message {
+    display: none;
+  }
+}
+
+.success--message {
+  color: green;
+  width: 100%;
+  text-align: left;
+}
+@media only screen and (max-width: 414px) {
+  .success--message {
+    display: none;
+  }
+}
+@media only screen and (min-width: 415px) {
+  .success--message {
+    margin-top: 2%;
+  }
+}
+
+.u-flex {
+  display: flex;
+}
+
+.u-flex-jc-center {
+  justify-content: center;
+}
+
+.u-flex-column {
+  flex-direction: column;
+}
+
+.u-gap {
+  gap: 16px;
+}
+
+.u-h1 {
+  font-size: 1.5em;
+}
+@media only screen and (min-width: 415px) {
+  .u-h1 {
+    font-size: 3.5em;
+  }
+}
+
+.u-align-center {
+  align-items: center;
+}
+
+.u-full-width {
+  width: 100%;
+}
+
+.u-margin-top-10 {
+  margin-top: 10%;
+}
+
+.u-margin-top-8 {
+  margin-top: 8%;
+}
+
+.u-margin-top-4 {
+  margin-top: 4%;
+}
+
+.u-hidden {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
